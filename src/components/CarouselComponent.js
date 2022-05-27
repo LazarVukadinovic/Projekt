@@ -1,7 +1,7 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
 
-const MyCarousel = () => {
+const MyCarousel = (props) => {
 
     return (
       <>
@@ -10,7 +10,7 @@ const MyCarousel = () => {
             <img
               className="d-block w-100"
               height={"600px"}
-              src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg"
+              src={props.img1}
               alt="First slide"
             />
             <Carousel.Caption>
@@ -22,7 +22,7 @@ const MyCarousel = () => {
             <img
               className="d-block w-100"
               height={"600px"}
-              src="https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_960_720.jpg"
+              src={props.img2}
               alt="Second slide"
             />
 
@@ -35,7 +35,7 @@ const MyCarousel = () => {
             <img
               className="d-block w-100"
               height={"600px"}
-              src="https://cdn.pixabay.com/photo/2017/02/08/17/24/fantasy-2049567_960_720.jpg"
+              src={props.img3}
               alt="Treci slajd"
             />
 

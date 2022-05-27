@@ -1,5 +1,5 @@
 import {Container, Row, Col} from 'react-bootstrap'
-import MyCarousel from '../CarouselComponent';
+import MyCarousel from '../components/CarouselComponent';
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const Home = () => {
@@ -18,7 +18,11 @@ const Home = () => {
                     </Col>
                 </Row>
                 <Row>
-                    <MyCarousel />
+                    <MyCarousel 
+                        img1="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg" 
+                        img2="https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_960_720.jpg" 
+                        img3="https://cdn.pixabay.com/photo/2017/02/08/17/24/fantasy-2049567_960_720.jpg" 
+                    />
                 </Row>
             </Container>
         </>

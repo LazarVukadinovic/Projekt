@@ -3,10 +3,10 @@ import React, {useState} from "react";
 import "./Layout.css";
 import FormGroup from "@mui/material/FormGroup";
 import FormControlLabel from "@mui/material/FormControlLabel";
-import MaterialUISwitch from "../SwitcherComponent";
+import MaterialUISwitch from "../components/SwitcherComponent";
 import { ThemeProvider } from "styled-components";
-import { GlobalStyles } from "../globalStyles";
-import { lightTheme, darkTheme } from "../Themes";
+import { GlobalStyles } from "../components/globalStyles";
+import { lightTheme, darkTheme } from "../components/Themes";
 
 const Layout = () => {
 
